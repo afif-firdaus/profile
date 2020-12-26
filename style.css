@@ -88,6 +88,11 @@
     width: 350px;
     margin-top: 30px;
   }
+
+
+  .navv {
+    text-align: left;
+  }
 }
 
 @media (max-width: 400px) {
@@ -107,6 +112,7 @@
   .image img {
     width: 300px;
   }
+
 
 }
 
@@ -177,4 +183,39 @@ code {
 .socials {
   text-align: center;
   margin-bottom: 100px;
+}
+
+.navv {
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navv:hover {
+  color: #ffffff;
+}
+
+.navv:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #ffffff;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navv:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.navv1 {
+  margin-right: 15px;
 }
