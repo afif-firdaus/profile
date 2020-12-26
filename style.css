@@ -219,3 +219,48 @@ code {
 .navv1 {
   margin-right: 15px;
 }
+
+.jumboHead2 {
+  margin: auto;
+  width: 100%;
+  min-height: fit-content;
+  display: block;
+
+}
+
+/* Float wrappers */
+.jumbotron>div {}
+
+#home {
+  min-height: 400px;
+}
+
+.image2 {
+  flex: 100%;
+}
+
+.image2 img {
+  margin-right: 60px
+}
+
+
+
+@media (max-width: 800px) {
+  .jumboHead2 {
+    flex-direction: column;
+  }
+
+  .text2,
+  .image2 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+
+  .image2 img {
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
