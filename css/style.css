@@ -183,6 +183,7 @@ code {
 .socials {
   text-align: center;
   margin-bottom: 100px;
+  margin-top: 40px;
 }
 
 .navv {
@@ -220,27 +221,28 @@ code {
   margin-right: 15px;
 }
 
-.jumboHead2 {
-  margin: auto;
-  width: 100%;
-  min-height: fit-content;
-  display: block;
-
-}
-
-/* Float wrappers */
-.jumbotron>div {}
-
-#home {
-  min-height: 400px;
+.profileContainer {
+  display: flex;
 }
 
 .image2 {
-  flex: 100%;
+  flex: 40%;
 }
 
 .image2 img {
-  margin-right: 60px
+  margin-bottom: 10px;
+}
+
+.image2 h4 {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.text2 {
+  flex: 60%;
+  text-align: left;
+  margin-top: 140px;
 }
 
 
@@ -257,11 +259,15 @@ code {
     text-align: center;
   }
 
+  .text2 {
+    margin-top: 20px;
+  }
+
 
   .image2 img {
     width: 300px;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-right: auto;
   }
 }
